@@ -1,0 +1,9 @@
+.articleWrapper{
+    text-align:center;
+}
+.linkBtn{
+    text-decoration:none;
+    border:2px solid gay;
+    padding:10px 15px;
+    border-radius:10px;
+}
