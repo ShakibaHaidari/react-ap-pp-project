@@ -14,7 +14,7 @@ function Home() {
         <MyNavbar></MyNavbar>
         <Container fluid='md'>
           <Row className="align-items-center my-5">
-            <Col md={7}>
+            <Col md={6}>
               <h1>دندان پزشکی دنیال</h1>
               <p style={{textAlign:'justify'}} >
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
@@ -30,7 +30,7 @@ function Home() {
                 پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
               </p>
             </Col>
-               <Col lg={5}>
+               <Col lg={6}>
                   <img src={proImg} className="img-fluid my-4 px-5" />    
                  </Col>
                 </Row>
