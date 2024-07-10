@@ -4,13 +4,13 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { NavLink } from "react-router-dom";
-import '../../components/navbar/Navbar.css'
+import './Navbar.css'
 import { useState } from "react";
 import { isLogin } from "../../utils";
 function MyNavbar() {
 
   const [loginStatus , setLoginStatus] = useState(isLogin() ? "خروج":"ورود")
-  let expand = 'md';
+  const expand = 'md';
   const logoutHand = () => {
      document.cookie =
       "username=admin; expires=Thu, 18 Dec 2021 12:00:00 UTC; path=/";
